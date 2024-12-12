@@ -1,0 +1,279 @@
+%-------------------------
+% Resume in Latex
+% Author : Tirth Pandya
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{ragged2e}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------
+\begin{center}
+    {\Huge \scshape Tirth Pandya} \\ \vspace{1pt}
+    \small
+    \faMobile \hspace{.5pt} +91 8469092075
+    $|$
+    \faEnvelope \hspace{.5pt} \href{mailto:tirthpandya1@gmail.com}{tirthpandya1@gmail.com}
+    $|$
+    \faLinkedin \hspace{.5pt} \href{https://www.linkedin.com/in/tirth-pandya-33b841143}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/tirthpandya1}{GitHub}
+    $|$
+    \faInstagram \hspace{.5pt} \href{https://www.instagram.com/tirth_6}{Instagram}
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+Innovative .NET Developer and Cloud Solutions Architect with a proven track record of delivering high-impact technological solutions. Expertise spans \textit{machine learning}, \textit{cloud technologies}, and advanced software engineering, with a passion for solving complex business challenges through cutting-edge technology.
+
+%-----------OBJECTIVE-----------
+\section{Professional Objective}
+To step up to the industry and hone diverse technical and non-technical skills to collectively achieve professionalism and enhance the society.
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        \textbf{Programming Languages}{: \textit{C\#}, \textit{.NET} (Framework \& Core), \textit{Python}, \textit{Java}, \textit{C++/C}, \textit{Angular}, \textit{HTML/CSS/JavaScript}} \\
+        \textbf{Cloud \& DevOps}{: \textit{Azure} (Certified Associate Developer), \textit{Cloud Migration}, \textit{Hybrid Infrastructure}} \\
+        \textbf{AI \& Machine Learning}{: \textit{Deep Learning}, \textit{Prompt Engineering}, \textit{GenAI}, \textit{Computer Vision}} \\
+        \textbf{Tools \& Frameworks}{: \textit{OpenAI APIs}, \textit{Tesseract}, \textit{Docker}, \textit{Git}, \textit{IBM MQ}, \textit{Windows Services}}
+    }}
+\end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {Nirma University}{Ahmedabad, India}
+    {B.Tech in Computer Engineering}{Aug 2015 - May 2019}
+    \resumeItemListStart
+        \resumeItem{Aggregate CGPA: \textbf{9.52/10.0}}
+        \resumeItem{Minor Specialization in \textit{IoT} and \textit{Cloud Computing}}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Microsoft Azure Certifications}{Online}
+    {Cloud Credentials}{2020-2021}
+    \resumeItemListStart
+        \resumeItem{\textit{AZ-303}: \textit{Azure Technological Solutions Architect}}
+        \resumeItem{\textit{AZ-204}: \textit{Azure Developer Associate}}
+        \resumeItem{\textit{AZ-900}: \textit{Azure Fundamentals}}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{Professional Experience and Projects}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {Morgan Stanley}{Bangalore, India}
+    {From TAP Grad Analyst to Manager, Financial Planning Team - Wealth Management Technology}{Jan 2020 - Present}
+    \resumeItemListStart
+        \resumeItem{Led development of \textit{Tesseract} with \textit{OpenAI APIs}, a \textit{GenAI} POC that enhanced client data exploration, reducing data retrieval time by \textbf{5x}}
+        \resumeItem{Architected \textit{Lex Ingenium} rules processing framework, \textbf{reducing time-to-market by 90\%} and enabling parallel execution of \textbf{60+} business rules}
+        \resumeItem{Spearheaded migration of core Analytics Engine to \textit{Azure Public Cloud}, establishing a hybrid infrastructure supporting \textbf{1M} transactions/hour with \textbf{\textless1s} latency}
+        \resumeItem{Rapidly advanced from Technology Analyst to Senior Technology Associate, demonstrating exceptional performance and leadership}
+        \resumeItem{Developed event-driven messaging ecosystem that \textbf{improved workflow SLAs by 40\%}, reducing data processing time from \textbf{23} hours to \textbf{2} milliseconds}
+        \resumeItem{Implemented cross-team collaboration solutions using \textit{Azure}, \textit{.NET Framework}, \textit{ChatGPT}, \textit{Windows Services}, \textit{IBM MQ}, and \textit{Python}}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Morgan Stanley}{Bangalore, India}
+    {Technology Intern Analyst}{May 2018 - July 2018}
+    \resumeItemListStart
+        \resumeItem{Completed intensive \textbf{8-week} summer internship in the Financial Planning Team}
+        \resumeItem{Demonstrated potential leading to a full-time offer in January 2020}
+        \resumeItem{Gained foundational experience in \textit{.NET} development and financial technology ecosystems}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Notable Projects}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {Drone.AI}{Ahmedabad, India}
+    {\textit{Deep Learning} in \textit{Computer Vision}}{2019}
+    \resumeItemListStart
+        \resumeItem{Applied \textit{deep learning} for \textit{Image Denoising}, \textit{Object Detection}, and \textit{Semantic Segmentation}}
+        \resumeItem{Utilized \textit{MU-Net Fusion}, \textit{RetinaNet}, and \textit{Fully Convolutional Networks}}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Stock Market Prediction}{Ahmedabad, India}
+    {\textit{Machine Learning}}{2018}
+    \resumeItemListStart
+        \resumeItem{Implemented predictive models using \textit{LSTM}, \textit{SVM}, \textit{Random Forest}, \textit{DBN}, and \textit{ARIMA}}
+        \resumeItem{Conducted technical analysis of financial markets}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------ADDITIONAL CERTIFICATIONS-----------
+\section{Additional Certifications}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {Workshop Certifications}{Various Institutions}
+    {Technical Skill Development}{2015-2018}
+    \resumeItemListStart
+        \resumeItem{IIT Bombay - \textit{Android App Development} Workshop (\textbf{2015})}
+        \resumeItem{IIT Bombay - \textit{Big Data and HADOOP} Workshop (\textbf{2016})}
+        \resumeItem{Nvidia - \textit{Deep Learning} Workshop at Nirma University (\textbf{2018})}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------LEADERSHIP & MANAGEMENT-----------
+\section{Leadership \& Management}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {Nirma University}{Ahmedabad, India}
+    {Student Leadership}{2016-2019}
+    \resumeItemListStart
+        \resumeItem{Vice President - Association of Computer Engineering Students (\textit{ACES})}
+        \resumeItem{Conducted \textit{Deep Learning} Workshop in NuTech Nirma University (\textbf{2018})}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------COMMUNITY SERVICE-----------
+\section{Community Service}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {Social Impact Initiatives}{Various Organizations}
+    {Volunteer \& Community Engagement}{2016-2024}
+    \resumeItemListStart
+        \resumeItem{Annual charity drives for underprivileged and animal welfare at \textit{Morgan Stanley GVM} (\textbf{2022-24})}
+        \resumeItem{Volunteered in Clothes Donation Drive for \textit{IHRC}, Himatnagar, Gujarat (\textbf{2016})}
+        \resumeItem{Participated in fundraising and food service for economically marginalized people with \textit{YouNeed Organisation}}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------AWARDS & RECOGNITION-----------
+\section{Awards \& Recognition}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {Academic Achievements}{Nirma University}
+    {B.Tech Computer Engineering}{2015-2019}
+    \resumeItemListStart
+        \resumeItem{Institute Topper Gold Medalist - B.Tech '\textbf{15} - '\textbf{19} Batch}
+        \resumeItem{Branch Topper Gold Medalist - B.Tech CSE \textbf{1st}, \textbf{3rd}, and \textbf{4th} Year}
+        \resumeItem{Outstanding Paper Award - \textbf{"Image Denoising with Self Adaptive Multi-\textit{UNET} Valve"} at \textit{\textbf{10th International Conference on Soft Computing}}}
+        \resumeItem{Distinction - Advanced \textit{Line Follower Bot} Challenge, \textit{IIT Bombay TechFest} (\textbf{2016})}
+    \resumeItemListEnd
+\resumeSubheading
+    {Academic Achievements}{Ryan International School}{SSC}
+    {2015}
+    \resumeItemListStart
+    \resumeItem{Ryan Prince - Best Student Award, \textit{Ryan International School} (\textbf{2015})}
+    \resumeItemListEnd
+    \resumeSubheading
+    {Professional Recognition}{Morgan Stanley}
+    {Industry Awards}{2022}
+    \resumeItemListStart
+        \resumeItem{Key Contributor to \textit{GPS 2.0} team, winning \textbf{Barron's Industry Award for Innovation}}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------HOBBIES-----------
+\section{Hobbies \& Interests}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        \textbf{Creative Pursuits}{: Inventing and Improvising, \textit{AI} \& \textit{Robotics} Enthusiast, \textit{Machine Learning} Passionate} \\
+        \textbf{Entertainment}{: Gaming (Console \& PC), Music (Guitar \& Keyboard), Movies \& TV Series} \\
+        \textbf{Active Interests}{: Motorcycle Touring, Sports (Badminton, Football, Cricket), \textit{Computer Vision} Photography} \\
+        \textbf{Culinary}{: Cooking (Indian, Chinese, and Sandwich Cuisine)}
+    }}
+\end{itemize}
+
+%-----------PERSONAL PHILOSOPHY-----------
+\section{Best O’ Thoughts - Quotes }
+\begin{quote}
+
+``\textit{Be the flame that Ignites Life in the Darkest Hour} - T (\textbf{2020})''
+
+``\textit{In all that we Code, we Quote} - T (\textbf{2018})''
+
+\end{quote}
+\end{document}
